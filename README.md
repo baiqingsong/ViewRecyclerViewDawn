@@ -36,7 +36,8 @@ dependencies {
 ## recyclerView相关类导入
 
 在recycler包下所有类复制进入app项目
-[recyclerView控件](app/src/main/assets/auto_view.png recyclerView控件)
+
+![recyclerView控件](app/src/main/assets/auto_view.png recyclerView控件)
 
 
 错误调整
