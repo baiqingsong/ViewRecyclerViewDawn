@@ -28,8 +28,15 @@
 
 app的build.gradle里面添加：
 ```
+allprojects {
+	repositories {
+		...
+		maven { url "https://jitpack.io" }
+	}
+}
 dependencies {
     compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.26'
 }
 ```
 
